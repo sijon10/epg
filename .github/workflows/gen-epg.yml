@@ -24,7 +24,7 @@ jobs:
           git config --global user.name "Emperor Team"
       - name: generate
         run: |
-          cd epg
+          cd epg/
           pwd
           echo "Installing dependencies..."
           python3 -m pip install lxml pgzip requests
